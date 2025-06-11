@@ -1,0 +1,26 @@
+*{
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Roboto", sans-serif;
+    transition: all ease-in-out 0.3s;
+
+}
+input, form, button, link, a{
+    font-family: "Roboto", sans-serif;
+
+}
+
+#logo{
+    filter: invert(1);
+}
+#loading{
+    animation: loadingAnimation 0.3s linear 0s infinite;
+}
+
+@keyframes loadingAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
